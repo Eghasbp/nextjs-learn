@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+          robotoc: 'var(--font-roboto_c)',
+          primary: 'var(--font-inter)',
+          mono: 'var(--font-mono)',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
